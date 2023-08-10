@@ -29,10 +29,17 @@ nav .btn {
   text-decoration: none;
   background-color: #333;
   color: #fff;
-  padding: 15px 50px;
+  padding: 12px 40px;
   border-radius: 30px;
   position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   
+}
+nav span{
+  z-index: 5;
 }
 
 /*---after before codes start*/
